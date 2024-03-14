@@ -26,7 +26,7 @@ app.config['DOWNLOAD_FOLDER'] = 'DOWNLOAD_FOLDER/'
 app.config['MAX_CONTENT_LENGTH'] = 10*1024*1024 #100mb
 
 migrate = Migrate()
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://dhnz2006:PwmQsVGZ0Rb3@ep-green-sound-a1aw4vjb.ap-southeast-1.aws.neon.tech/crackthemic'
+app.config['SQLALCHEMY_DATABASE_URI']='postgres://postgresql:E4LsitsLd6VZvRek2TC5uLQ2pWBaURzI@dpg-cnpknmgl5elc73cnl0cg-a/postgresql_in6a'
 
 db.init_app(app)
 conn = psycopg2.connect(database="crackthemic", user="dhnz2006", 
