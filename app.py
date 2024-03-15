@@ -38,7 +38,7 @@ GOOGLE_CLIENT_ID = '409001498988-jdb3erqtuhn844mi9ihvt19s9hkctsdq.apps.googleuse
 flow = Flow.from_client_secrets_file(
     client_secrets_file=client_secrets_file,
     scopes=["https://www.googleapis.com/auth/userinfo.profile", "https://www.googleapis.com/auth/userinfo.email", "openid"],
-    redirect_uri="http://127.0.0.1:5000/callback"
+    redirect_uri="https://cracktemic-public.onrender.com/callback"
 )
 
 
